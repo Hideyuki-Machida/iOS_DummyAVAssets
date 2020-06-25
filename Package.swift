@@ -26,9 +26,6 @@ let package = Package(
                 .copy("Lut"),
                 .copy("Movie"),
                 .copy("SequenceImage"),
-            ]),
-        .testTarget(
-            name: "iOS_DummyAVAssetsTests",
-            dependencies: ["iOS_DummyAVAssets"]),
+            ])
     ]
 )
